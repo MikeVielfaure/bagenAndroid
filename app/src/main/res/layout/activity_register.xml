@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".registerActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="50dp"
+      app:srcCompat="@drawable/logo4_petit_70">
+
+    </ImageView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Enregistrement"
+      android:textSize="20dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="10dp">
+    </TextView>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Adresse mail : ">
+    </TextView>
+
+    <EditText
+      android:id="@+id/txtMailRegister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="example@ex.fr"
+      android:layout_marginBottom="15dp">
+    </EditText>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Mot de passe : ">
+    </TextView>
+
+    <EditText
+      android:id="@+id/txtMDPRegister"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="15dp"
+      android:inputType="textPassword"
+      >
+    </EditText>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Confirmer mot de passe : ">
+    </TextView>
+
+    <EditText
+      android:id="@+id/txtMDPConfirm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="30px"
+      android:inputType="textPassword">
+    </EditText>
+
+    <TextView
+      android:id="@+id/msgRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="30dp">
+
+    </TextView>
+
+    <Button
+      android:id="@+id/btnValiderRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Valider"
+      android:minWidth="10dp"
+      android:layout_gravity="center"
+      android:textColor="@color/blanc"
+      android:background="@drawable/btnvalider">
+    </Button>
+
+  </LinearLayout>
+
+</LinearLayout>

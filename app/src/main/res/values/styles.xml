@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+  <!--Here, android: indeterminateDrawable sets the picture displayed in
+      the animation or the xml file of this animation and android: indeterminateOnly
+         This property is set to true,the progress bar will be ignored Progress and present
+         an infinite loop of animation
+  -->
+
+
+</resources>

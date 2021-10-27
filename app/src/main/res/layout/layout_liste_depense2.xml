@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/contourcompte"
+      >
+
+
+
+
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/txtLibelleDepense"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="25sp"
+          />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="le : "
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtDateDepense"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        >
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Montant : "
+          android:textSize="15sp"
+          />
+        <TextView
+          android:id="@+id/txtMontantDepenseAdapter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+          android:id="@+id/btnModifierDepense"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="modifier"
+          android:minWidth="0dp"
+          android:minHeight="0dp"
+          >
+        </Button>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+          android:id="@+id/btnSupprDepense"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="X"
+          android:minWidth="0dp"
+          android:minHeight="0dp"
+
+          >
+        </Button>
+      </LinearLayout>
+
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+      android:id="@+id/div2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/contourcompte"
+      >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/txtLibelleDepense2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="25sp"
+          />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="le :"
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtDateDepense2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Montant : "
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtMontantDepenseAdapter2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+          android:id="@+id/btnModifierDepense2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Modifier"
+          android:minWidth="0dp"
+          android:minHeight="0dp"
+          >
+        </Button>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="right">
+          <Button
+            android:id="@+id/btnSupprDepense2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+
+            >
+          </Button>
+        </LinearLayout>
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</LinearLayout>
+
+
+

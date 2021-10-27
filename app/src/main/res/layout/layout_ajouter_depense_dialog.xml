@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ajourter une dépense"
+    android:textSize="25sp">
+
+  </TextView>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Titre :">
+
+    </TextView>
+
+    <EditText
+      android:id="@+id/etDepenseTitre"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content">
+
+    </EditText>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Montant :">
+
+    </TextView>
+
+    <EditText
+      android:id="@+id/etDepenseMontant"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:inputType="numberDecimal">
+
+    </EditText>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <DatePicker
+      android:id="@+id/datAjouterDepense"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:calendarViewShown="false"
+      android:datePickerMode="spinner" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/btnValider"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="valider">
+    </Button>
+
+    <Button
+      android:id="@+id/btnAnnuler"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      android:text="annuler">
+    </Button>
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".compteDetail">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="50dp"
+      app:srcCompat="@drawable/logo4_petit_70">
+
+    </ImageView>
+
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:id="@+id/txtIntituleCompte"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:text="Intitule"
+      android:textSize="25dp">
+
+    </TextView>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:layout_marginRight="15dp">
+
+      <Button
+        android:id="@+id/btnSupprCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="X"
+
+        ></Button>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/llBudget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Budget :"
+      android:textSize="20sp"></TextView>
+
+    <TextView
+      android:id="@+id/txtMontantBudget"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="500"
+      android:textSize="20sp"></TextView>
+
+
+    <Button
+      android:id="@+id/btnModifierBudget"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@drawable/arrondi_btn"
+      android:text="modifier"
+      android:textColor="#ffffff">
+
+    </Button>
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/llBudgetModifie"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:visibility="invisible">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Budget :"
+      android:textSize="20sp"></TextView>
+
+
+    <EditText
+      android:id="@+id/etxtMontantBudget"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textSize="20sp">
+
+    </EditText>
+
+    <Button
+      android:id="@+id/btnValiderBudget"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Valider">
+
+    </Button>
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Dépenses :"
+      android:textSize="20sp"
+
+      >
+
+    </TextView>
+
+    <TextView
+      android:id="@+id/txtMontantDepenses"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:text="500"
+      android:textSize="20sp"></TextView>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1">
+
+      <Button
+        android:id="@+id/btnAjouterDepenses"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:background="@drawable/btnajouterdepense"
+        android:minWidth="20sp"
+        android:paddingLeft="10dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="@color/colorBluePrimary">
+
+      </Button>
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+
+    <ListView
+      android:id="@+id/lstDepenses"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:scrollbars="vertical" />
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Total :"
+      android:textSize="20sp"></TextView>
+
+    <TextView
+      android:id="@+id/txtMontantTotalDepenses"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="500"
+      android:textSize="20sp"></TextView>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textSize="20sp"></TextView>
+
+
+  </LinearLayout>
+
+</LinearLayout>
+
+

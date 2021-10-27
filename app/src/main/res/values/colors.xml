@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBluePrimary">#007bff</color>
+    <color name="colorBlueSky">#77b5fe</color>
+    <color name="colorBlueMedium">#337ab7</color>
+    <color name="colorBlueFonce">#337ab7</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="noir">#000000</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="green">#00FF00</color>
+
+
+</resources>

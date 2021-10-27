@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".IdentificationActivity">
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical">
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="50dp"
+      app:srcCompat="@drawable/logo4_petit_70">
+
+    </ImageView>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Adresse mail : ">
+
+    </TextView>
+
+    <EditText
+      android:id="@+id/txtMail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="example@ex.fr"
+      android:text="vielfauremike@gmail.com"
+      android:layout_marginBottom="30px">
+
+    </EditText>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Mot de passe : ">
+
+    </TextView>
+
+    <EditText
+      android:id="@+id/txtMDP"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="30px"
+      android:text="Ra...dels0506"
+      android:inputType="textPassword">
+
+    </EditText>
+
+
+    <CheckBox
+      android:id="@+id/cbSession"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="garder ma session ouverte">
+
+    </CheckBox>
+
+    <TextView
+      android:id="@+id/connectionEnCours"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginBottom="30dp">
+
+    </TextView>
+
+    <Button
+      android:id="@+id/btnValider"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Valider"
+      android:minWidth="10dp"
+      android:layout_gravity="center"
+      android:textColor="@color/blanc"
+      android:background="@drawable/btnvalider">
+
+    </Button>
+
+    <Button
+      android:id="@+id/btnRegister"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Créer un Compte"
+      android:layout_gravity="center"
+      android:textColor="@color/blanc"
+      android:background="@drawable/btnregister"
+      android:layout_marginTop="20dp">
+
+    </Button>
+
+  </LinearLayout>
+</LinearLayout>

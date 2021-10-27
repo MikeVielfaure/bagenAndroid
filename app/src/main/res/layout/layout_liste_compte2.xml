@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/contourcompte"
+      >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/txtIntitule"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="25sp"
+          />
+    </LinearLayout>
+
+      <RelativeLayout
+        android:id="@+id/relativeLayoutImg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp">
+
+        </ImageView>
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!--Add ProgressBar. Main Attribute used here are
+        style="@style/CircularDeterminateProgressBar" that
+        takes style as created in theme.xml file above and
+         android:progressDrawable="@drawable/circle" that has been
+        created in circle.xml file above.-->
+        <ProgressBar
+          android:id="@+id/progress_bar"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:indeterminateOnly="false"
+          android:progress="10"
+          android:progressDrawable="@drawable/circle"
+
+           />
+<RelativeLayout
+  android:layout_width="100dp"
+  android:layout_height="100dp"
+  android:gravity="center">
+
+
+  <TextView
+    android:id="@+id/text_view_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="iii"
+    />
+
+</RelativeLayout>
+
+
+      </RelativeLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Budget :"
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtBudget"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        >
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Dépenses : "
+          android:textSize="15sp"
+          />
+        <TextView
+          android:id="@+id/txtDepense"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+      <Button
+        android:id="@+id/btnVoir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voir"
+        >
+      </Button>
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+      android:id="@+id/div2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@drawable/contourcompte"
+      >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:id="@+id/txtIntitule2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="25sp"
+          />
+      </LinearLayout>
+
+      <RelativeLayout
+        android:id="@+id/relativeLayoutImg2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <ImageView
+          android:layout_width="100dp"
+          android:layout_height="100dp">
+
+        </ImageView>
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!--Add ProgressBar. Main Attribute used here are
+        style="@style/CircularDeterminateProgressBar" that
+        takes style as created in theme.xml file above and
+         android:progressDrawable="@drawable/circle" that has been
+        created in circle.xml file above.-->
+        <ProgressBar
+          android:id="@+id/progress_bar2"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:indeterminateOnly="false"
+          android:progress="10"
+          android:progressDrawable="@drawable/circle"
+
+          />
+        <RelativeLayout
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:gravity="center">
+
+
+          <TextView
+            android:id="@+id/text_view_progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="iii"
+            />
+
+        </RelativeLayout>
+
+
+      </RelativeLayout>
+
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Budget :"
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtBudget2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="Dépenses : "
+          android:textSize="15sp" />
+        <TextView
+          android:id="@+id/txtDepense2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="2dp"
+          android:paddingRight="2dp"
+          android:text="hello"
+          android:textSize="15sp" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+          android:id="@+id/btnVoir2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="voir"
+          >
+        </Button>
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+  </LinearLayout>
+
+</LinearLayout>

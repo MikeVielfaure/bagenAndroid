@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+
+    >
+
+
+    <TextView
+      android:id="@+id/txtLibelleDepense"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="10sp"
+      android:layout_gravity="center_vertical"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <TextView
+      android:id="@+id/txtDateDepense"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="10sp"
+      android:layout_gravity="center_vertical"
+      />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <TextView
+      android:id="@+id/txtMontantDepenseAdapter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="10sp"
+      android:layout_gravity="center_vertical"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Button
+      android:id="@+id/btnModifierDepense"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="voir"
+      android:layout_gravity="center_vertical"
+
+
+      >
+
+    </Button>
+  </LinearLayout>
+
+    <LinearLayout
+
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+
+      >
+
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+      <Button
+        android:id="@+id/btnSupprimerDepense"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+
+
+        >
+
+      </Button>
+      </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

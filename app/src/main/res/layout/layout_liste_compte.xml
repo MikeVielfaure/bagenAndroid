@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="Nom : "
+      android:textSize="15sp" />
+
+    <TextView
+      android:id="@+id/txtIntitule"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="15sp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="Budget :"
+      android:textSize="15sp" />
+
+    <TextView
+      android:id="@+id/txtBudget"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="15sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="Depense"
+      android:textSize="15sp" />
+
+    <TextView
+      android:id="@+id/txtDepense"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="2dp"
+      android:paddingRight="2dp"
+      android:text="hello"
+      android:textSize="15sp" />
+
+  </LinearLayout>
+  <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp"
+    >
+
+    <Button
+      android:id="@+id/btnVoir"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="voir"
+      android:layout_gravity="end"
+
+      >
+
+    </Button>
+
+
+
+  </LinearLayout>
+</LinearLayout>
