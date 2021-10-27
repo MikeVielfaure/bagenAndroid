@@ -4,7 +4,8 @@
 
 1.Mettre en oeuvre une application Android, qui permet d'enregistrer, modifier et visualiser des comptes de gestion financière comprenant un budget et des des dépenses.
 - **Android Studio** : Environnement de développement intégré (IDE) utilisé pour ce projet.
-- **S** : Framework utilisé.
+- **API** : 23.
+- **Version Android": 8.0 Oreo.
 - **XML** : Langage de balisage utilisé pour concevoir l'interface visuelle.
 - **Java** : Langage de programmation utilisé pour développer les fonctionnalités.
 - **PHP** : Langage de programmation utilisé du côté serveur.
@@ -16,7 +17,7 @@
 
  <br>
 
-
+API 
 
   <br>
 
